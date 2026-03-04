@@ -23,7 +23,8 @@ As a trained librarian, I specialize in the transition from legacy keyword-depen
 I am the author and founding architect of the **PADI Technical Standard v1.0**.
 
 * **[PADI Technical Standard v1.0](https://github.com/PeculiarLibrarian/padi-standard)**: A formal OWL 2 ontology and SHACL validation framework for legal practice-area depth.
-* **[PADI White Paper](https://github.com/PeculiarLibrarian/padi-documentation)**: The foundational doctrine for Authority Architecture in competitive legal markets.
+* **[PADI White Paper](https://github.com/PeculiarLibrarian/padi-documentation/blob/main/WHITE_PAPER.md)**: The foundational doctrine for Authority Architecture in competitive legal markets.
+* **[Statement of Methodology](https://github.com/PeculiarLibrarian/padi-documentation/blob/main/METHODOLOGY.md)**: A formal defense of Library Science applications, specifically Faceted Classification, in legal modeling.
 * **[Certified Entity Registry](https://github.com/PeculiarLibrarian/padi-documentation)**: The official ledger of machine-readable legal service providers.
 
 ---
