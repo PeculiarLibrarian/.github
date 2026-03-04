@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PeculiarLibrarian/.github/main/padi-v1-system-header-registry.jpg.png" alt="PADI Technical Standard v1.0: Practice-Area Depth Index & Authority Architecture" width="100%">
+</p>
+
 # Samuel Muriithi | The Peculiar Librarian
 **Information Scientist | Semantic Web Architect | PADI Founding Architect**
 
@@ -14,8 +18,6 @@ I apply the formal principles of **Information Science** and **Library Science**
 * **Specialization**: Semantic Web Engineering & Faceted Classification
 
 As a trained librarian, I specialize in the transition from legacy keyword-dependency to **machine-validated legal doctrine modeling**. 
-
-
 
 ---
 
