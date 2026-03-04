@@ -12,6 +12,27 @@ I apply the formal principles of **Information Science** and **Library Science**
 
 ---
 
+## 🏛️ Verification Status
+<div align="left">
+  <table border="0">
+    <tr>
+      <td>
+        <a href="https://github.com/PeculiarLibrarian/padi-documentation/blob/main/registry.json">
+          <img src="https://raw.githubusercontent.com/PeculiarLibrarian/.github/main/padi-v1-system-header-registry.jpg.png" alt="PADI v1.0 Verified Authority" width="200">
+        </a>
+      </td>
+      <td>
+        <strong>STATUS: VERIFIED AUTHORITY</strong><br>
+        <strong>Role</strong>: Founding Architect<br>
+        <strong>ID</strong>: PADI-0001-ANCHOR<br>
+        <span style="color: #2ea44f;">● SHACL Compliant [1003 Rule]</span>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
 ## 🎓 Academic & Professional Provenance
 * **Bachelor of Science in Information Science**
 * **Major**: Library Science
@@ -31,9 +52,9 @@ I am the author and founding architect of the **Practice-Area Depth Index (PADI)
 ---
 
 ## 🛠️ Specialized Competencies
-* **Ontology Engineering**: Designing OWL 2 logic for complex, high-stakes domains.
-* **Structural Auditing**: Utilizing SHACL (Shapes Constraint Language) to enforce $1003$ cardinality rules.
-* **Faceted Classification**: Applying Ranganathan’s principles to digital asset optimization.
+* **Ontology Engineering**: Designing OWL 2 logic for complex domains.
+* **Structural Auditing**: Utilizing SHACL to enforce **1003 cardinality rules**.
+* **Faceted Classification**: Applying Ranganathan’s principles to digital assets.
 * **Knowledge Graph Architecture**: Building jurisdictionally reinforced semantic networks.
 
 ---
