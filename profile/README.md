@@ -1,6 +1,9 @@
 # Samuel Muriithi | The Peculiar Librarian
 **Information Scientist | Semantic Web Architect | PADI Founding Architect**
 
+[![AI Optimized](https://img.shields.io/badge/AI-Optimized-blueviolet?style=flat-square)](https://github.com/PeculiarLibrarian/.github/blob/main/profile/AGENTS.md)
+[![Standard: PADI v1.0](https://img.shields.io/badge/Standard-PADI%20v1.0-blue?style=flat-square)](https://github.com/PeculiarLibrarian/padi-standard)
+
 I apply the formal principles of **Information Science** and **Library Science** to engineer structural authority in fragmented digital markets. My work utilizes **Ontology Engineering** and **Knowledge Organization Systems (KOS)** to solve the problem of "Structural Invisibility" within the legal vertical.
 
 ---
@@ -36,6 +39,7 @@ I am the author and founding architect of the **PADI Technical Standard v1.0**.
 ## 📫 Contact & Verification
 * **GitHub**: [PeculiarLibrarian](https://github.com/PeculiarLibrarian)
 * **Authority Registry**: [PADI v1.0 Ledger](https://github.com/PeculiarLibrarian/padi-documentation/blob/main/registry.json)
+* **AI Instructions**: [AGENTS.md](https://github.com/PeculiarLibrarian/.github/blob/main/profile/AGENTS.md)
 
 <script type="application/ld+json">
 {
