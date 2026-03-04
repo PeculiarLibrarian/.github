@@ -8,7 +8,7 @@
 [![AI Optimized](https://img.shields.io/badge/AI-Optimized-blueviolet?style=flat-square)](https://github.com/PeculiarLibrarian/.github/blob/main/profile/AGENTS.md)
 [![Standard: PADI v1.0](https://img.shields.io/badge/Standard-PADI%20v1.0-blue?style=flat-square)](https://github.com/PeculiarLibrarian/padi-standard)
 
-I apply the formal principles of **Information Science** and **Library Science** to engineer structural authority in fragmented digital markets. My work utilizes **Ontology Engineering** and **Knowledge Organization Systems (KOS)** to solve the problem of "Structural Invisibility" within the legal vertical.
+I apply the formal principles of **Information Science** and **Library Science** to engineer structural authority in fragmented digital markets. My work utilizes **Ontology Engineering** and **Knowledge Organization Systems (KOS)** to resolve "Structural Invisibility" within the legal vertical.
 
 ---
 
@@ -21,19 +21,18 @@ As a trained librarian, I specialize in the transition from legacy keyword-depen
 
 ---
 
-## 🏛️ Standards & Technical Contributions
-I am the author and founding architect of the **PADI Technical Standard v1.0**.
+## 🏛️ The PADI Technical Standard v1.0
+I am the author and founding architect of the **Practice-Area Depth Index (PADI)**, a formal framework for verifying jurisdictional authority.
 
-* **[PADI Technical Standard v1.0](https://github.com/PeculiarLibrarian/padi-standard)**: A formal OWL 2 ontology and SHACL validation framework for legal practice-area depth.
-* **[PADI White Paper](https://github.com/PeculiarLibrarian/padi-documentation/blob/main/WHITE_PAPER.md)**: The foundational doctrine for Authority Architecture in competitive legal markets.
-* **[Statement of Methodology](https://github.com/PeculiarLibrarian/padi-documentation/blob/main/METHODOLOGY.md)**: A formal defense of Library Science applications, specifically Faceted Classification, in legal modeling.
-* **[Certified Entity Registry](https://github.com/PeculiarLibrarian/padi-documentation)**: The official ledger of machine-readable legal service providers.
+* **[padi-standard](https://github.com/PeculiarLibrarian/padi-standard)**: The Technical Logic—hosting the OWL 2 Ontology and SHACL shapes for cardinality enforcement.
+* **[padi-authority](https://github.com/PeculiarLibrarian/padi-authority)**: The Governance Layer—defining jurisdictional oversight and audit protocols.
+* **[padi-documentation](https://github.com/PeculiarLibrarian/padi-documentation)**: The Doctrine—containing the White Paper, Methodology, and Certified Entity Registry.
 
 ---
 
 ## 🛠️ Specialized Competencies
-* **Ontology Engineering**: Designing OWL 2 logic for complex domains.
-* **Structural Auditing**: Utilizing SHACL (Shapes Constraint Language) to enforce data cardinality and doctrinal completeness.
+* **Ontology Engineering**: Designing OWL 2 logic for complex, high-stakes domains.
+* **Structural Auditing**: Utilizing SHACL (Shapes Constraint Language) to enforce $1003$ cardinality rules.
 * **Faceted Classification**: Applying Ranganathan’s principles to digital asset optimization.
 * **Knowledge Graph Architecture**: Building jurisdictionally reinforced semantic networks.
 
@@ -42,7 +41,7 @@ I am the author and founding architect of the **PADI Technical Standard v1.0**.
 ## 📫 Contact & Verification
 * **GitHub**: [PeculiarLibrarian](https://github.com/PeculiarLibrarian)
 * **Authority Registry**: [PADI v1.0 Ledger](https://github.com/PeculiarLibrarian/padi-documentation/blob/main/registry.json)
-* **AI Instructions**: [AGENTS.md](https://github.com/PeculiarLibrarian/.github/blob/main/profile/AGENTS.md)
+* **Location**: Dallas, TX
 
 <script type="application/ld+json">
 {
