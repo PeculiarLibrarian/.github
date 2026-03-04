@@ -1,5 +1,5 @@
-Samuel Muriithi | The Peculiar Librarian
-Information Scientist | Semantic Web Architect | PADI Founding Architect
+*Samuel Muriithi | The Peculiar Librarian
+*Information Scientist | Semantic Web Architect | PADI Founding Architect
 
 I apply formal principles of Information Science and Library Science to engineer structural authority in fragmented digital markets. My work utilizes Ontology Engineering and Knowledge Organization Systems (KOS) to solve "Structural Invisibility" in the legal vertical.
 
@@ -10,6 +10,7 @@ Major: Library Science (Specialization: Semantic Web Engineering)
 
 🏛️ Founding Standards
 PADI Technical Standard v1.0: A machine-verifiable framework for legal practice-area depth.
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
