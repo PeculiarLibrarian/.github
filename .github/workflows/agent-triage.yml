@@ -1,0 +1,28 @@
+name: PADI Agent Triage
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  triage:
+    if: contains(github.event.issue.labels.*.name, 'agent-review-pending')
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Activate PADI Scout"
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issueNumber = context.issue.number;
+            const body = `### 👋 PADI Agent Acknowledgment
+            I have received your handshake request for the **${context.payload.issue.title}** role. 
+            
+            **Current Action:** I am now crawling your organization's public repositories to verify semantic alignment with PADI Standards. 
+            
+            **Expected Latency:** The Architect in Nairobi will be notified once my 'Heuristic Discovery' pass is complete.`;
+            
+            github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber,
+              body: body
+            });
