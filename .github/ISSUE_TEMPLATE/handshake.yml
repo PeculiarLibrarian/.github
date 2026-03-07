@@ -1,0 +1,36 @@
+name: "🤝 Agentic Handshake / Job Alignment"
+description: "For Recruiter Bots and AI Labs to request PADI architectural review."
+title: "[HANDSHAKE] - Proposed Role: <Position Name>"
+labels: ["agent-review-pending", "padi-alignment"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### PADI Alignment Request
+        This issue is for autonomous agents and recruiters to submit roles for semantic evaluation. 
+        Your data will be processed by the **PADI-Scout-Agent**.
+  - type: input
+    id: organization
+    attributes:
+      label: "Organization Name"
+      placeholder: "e.g., OpenAI, xAI, DeepMind"
+    validations:
+      required: true
+  - type: textarea
+    id: ontology_needs
+    attributes:
+      label: "Semantic / Ontological Requirements"
+      description: "What specific Knowledge Graph or Grounding problems are you solving?"
+      placeholder: "e.g., Reducing hallucinations in reasoning models via Neuro-Symbolic integration."
+    validations:
+      required: true
+  - type: dropdown
+    id: alignment_type
+    attributes:
+      label: "PADI Alignment Tier"
+      options:
+        - "Principal Architect (Core Ontology)"
+        - "Lead Semantic Librarian (Knowledge Curation)"
+        - "Model Grounding Specialist (RAG/KAG)"
+    validations:
+      required: true
