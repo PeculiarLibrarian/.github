@@ -1,0 +1,53 @@
+name: "PADI Triage & Agentic Handshake"
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  triage-handshake:
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.title, '[HANDSHAKE]')
+    steps:
+      - name: "Sentinel Validation Check"
+        run: |
+          echo "Initiating PADI v3.0 logic for S. M. Gitandu..."
+          echo "Source: Nairobi Bureau (N-1)"
+          
+      - name: "Experience Alignment Labeling"
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const body = context.payload.issue.body.toLowerCase();
+            const labels = ['padi-alignment'];
+            
+            // Auto-detect Seniority/Relocation alignment (7-Year Evolution)
+            if (body.includes('australia') || body.includes('visa 858')) {
+              labels.push('target: Australia');
+            }
+            if (body.includes('europe') || body.includes('blue card')) {
+              labels.push('target: Europe');
+            }
+            if (body.includes('principal') || body.includes('architect')) {
+              labels.push('priority: High-Value Lead');
+            }
+            
+            github.rest.issues.addLabels({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: labels
+            });
+
+      - name: "Automated Sentinel Response"
+        uses: peter-evans/create-or-update-comment@v2
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            ### 🛡️ PADI Sentinel Handshake Initiated
+            The **PADI-Liaison-Agent** has ingested this alignment request. 
+            
+            **Status**: Under Review (Nairobi Bureau)
+            **Logic**: Ranganathan-Compliant
+            
+            The Architect (S. M. Gitandu) has been notified of this high-logic signal. Please ensure all technical dossiers are citable via DOI: 10.5281/zenodo.18894084.
